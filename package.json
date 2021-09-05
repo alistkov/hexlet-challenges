@@ -5,18 +5,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --bail"
+    "test": "npx jest",
+    "test-watch": "npx jest --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alistkov/js_template.git"
+    "url": "git+https://github.com/alistkov/hexlet-challenges.git"
   },
   "author": "Anton Listkov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alistkov/js_template/issues"
+    "url": "https://github.com/alistkov/hexlet-challenges/issues"
   },
-  "homepage": "https://github.com/alistkov/js_template#readme",
+  "homepage": "https://github.com/alistkov/hexlet-challenges#readme",
   "jest": {
     "testEnvironment": "node",
     "transform": {},
